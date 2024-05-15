@@ -1,0 +1,6 @@
+if SHIELD_UTERUS
+
+config ZMK_KEYBOARD_NAME
+    default "uterus"
+
+endif
