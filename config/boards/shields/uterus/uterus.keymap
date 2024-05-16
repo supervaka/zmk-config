@@ -49,7 +49,7 @@
 
         default {
            bindings = <
-            &kp ESC     &kp F1      &kp F2      &kp R       &kp T       &kp Y
+            &kp ESC     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5
             &kp TAB     &none       &none       &none       &none       &kp H
             &kp BSPC    &none       &none       &none       &none       &kp Y       &kp U
             &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J
