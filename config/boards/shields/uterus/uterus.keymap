@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 // CONFIG
-#define COMBO_TIMEOUT 50
+#define COMBO_TIMEOUT 40
 #define COMBO_LAYERS 0
 #define STICKY_TIMEOUT 500
 
@@ -41,7 +41,6 @@
     combos {
         compatible = "zmk,combos";
         #include "taipo.dtsi"
-        
     };
 
     keymap {
@@ -50,16 +49,16 @@
         default {
            bindings = <
             &kp ESC     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5
-            &kp TAB     &none       &none       &none       &none       &kp H
-            &kp BSPC    &none       &none       &none       &none       &kp Y       &kp U
-            &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J
-            &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U
+            &kp TAB     &none       &none       &none       &none       &sk LGUI
+            &kp BSPC    &none       &none       &none       &none       &kp DEL     &none       
+            &sk LSHIFT  &sk LGUI    &kp LEFT    &kp UP      &kp RIGHT   &none       &sk LCTRL   
+            &sk LCTRL   &sk LGUI    &sk LALT    &kp DOWN    &none       &none       &sk LGUI
 
-                        &kp S       &kp D       &kp F       &kp G       &kp H       &kp J
-                        &kp W       &none       &none       &none       &none       &kp U
-            &kp A       &kp S       &none       &none       &none       &none       &kp J
-            &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U
-            &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J
+                        &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11
+                        &sk LGUI    &none       &none       &none       &none       &kp F12
+            &none       &kp DEL     &none       &none       &none       &none       &kp BSPC
+            &sk LCTRL   &none       &kp LEFT    &kp UP      &kp RIGHT   &kp PGUP    &kp PSCRN
+            &sk LGUI    &none       &none       &kp DOWN    &kp HOME    &kp PGDN    &kp END
             >;
         };
     };
