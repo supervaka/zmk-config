@@ -21,14 +21,14 @@
 #define LIT 30 // I-THUMB
 
 // RIGHT SIDE
-#define TRI 43 // TOP
-#define TRM 42 // TOP
-#define TRR 41 // TOP
-#define TRP 40 // TOP
-#define BRI 50 // BOTTOM
-#define BRM 49 // BOTTOM
-#define BRR 48 // BOTTOM
-#define BRP 47 // BOTTOM
+#define TRI 40 // TOP
+#define TRM 41 // TOP
+#define TRR 42 // TOP
+#define TRP 43 // TOP
+#define BRI 47 // BOTTOM
+#define BRM 48 // BOTTOM
+#define BRR 49 // BOTTOM
+#define BRP 50 // BOTTOM
 #define ROT 60 // O-THUMB
 #define RIT 61 // I-THUMB
 
