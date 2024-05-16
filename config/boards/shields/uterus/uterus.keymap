@@ -41,6 +41,7 @@
     combos {
         compatible = "zmk,combos";
         #include "taipo.dtsi"
+        
     };
 
     keymap {
@@ -48,17 +49,17 @@
 
         default {
            bindings = <
-            &kp Q &kp W &kp E &kp R &kp T &kp Y
-            &kp A &kp S &kp D &kp F &kp G &kp H
-            &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U
-            &kp A &kp S &kp D &kp F &kp G &kp H &kp J
-            &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U
+            &kp ESC     &kp F1      &kp F2      &kp R       &kp T       &kp Y
+            &kp TAB     &none       &none       &none       &none       &kp H
+            &kp BSPC    &none       &none       &none       &none       &kp Y       &kp U
+            &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J
+            &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U
 
-                  &kp S &kp D &kp F &kp G &kp H &kp J
-                  &kp W &kp E &kp R &kp T &kp Y &kp U
-            &kp A &kp S &kp D &kp F &kp G &kp H &kp J
-            &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U
-            &kp A &kp S &kp D &kp F &kp G &kp H &kp J
+                        &kp S       &kp D       &kp F       &kp G       &kp H       &kp J
+                        &kp W       &none       &none       &none       &none       &kp U
+            &kp A       &kp S       &none       &none       &none       &none       &kp J
+            &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U
+            &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J
             >;
         };
     };
