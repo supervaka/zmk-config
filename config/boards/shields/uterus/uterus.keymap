@@ -21,13 +21,13 @@
             &kp TAB     &kp Y       &kp B       &kp L       &kp D       &kp K
             &kp BSPC    &kp S       &kp T       &kp R       &kp H       &kp M       &none       
             &sk LSHIFT  &kp V       &kp G       &kp X       &kp F       &none       &sk LCTRL   
-            &sk LCTRL   &sk LGUI    &sk LALT    &kp DOWN    &none       &none       &sk LGUI
+            &sk LCTRL   &sk LGUI    &sk LALT    &kp DOWN    &kp ENTER   &kp SPACE   &sk LGUI
 
                         &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11
                         &sk LGUI    &kp W       &kp U       &kp O       &kp SEMI    &kp F12
             &none       &kp J       &kp C       &kp E       &kp A       &kp I       &kp BSPC
             &sk LCTRL   &kp Z       &kp P       &kp SQT     &kp GT      &kp LT      &kp PSCRN
-            &sk LGUI    &none       &none       &kp LEFT    &kp UP      &kp DOWN    &kp RIGHT
+            &sk LGUI    &kp N       &kp ENTER   &kp LEFT    &kp UP      &kp DOWN    &kp RIGHT
             >;
         };
     };
